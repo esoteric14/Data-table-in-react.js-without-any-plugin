@@ -1,52 +1,28 @@
-.App {
+form{
+  margin: 5%;
+  
+}
+.p-float-label {
+  display: block;
+  position: relative;
+  margin: 25px;
+  margin-bottom:10px ;
+}
+.p-dropdown {
+  display: inline-flex;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  width: 250px;
+}
+
+.p-float-label:has(.p-inputwrapper-focus) label,.p-float-label:has(input.p-filled) label,.p-float-label:has(.p-inputwrapper-filled) label {
+  top: -.75rem;
+  font-size: 12px;
+  font-weight: 700;
+  left: 5px;
+}
+.frm-container{
+  width: 20%;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-form{
-  margin-bottom: 10vh;
-}
-
-table{
-  width: 90%;
-  border-collapse: collapse;
-  margin: 0 auto;
-}
-
-table, td, th {
-  border: 1px solid black;
-}
-
